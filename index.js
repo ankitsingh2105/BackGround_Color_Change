@@ -15,11 +15,14 @@ let colorArray = [
 let color = document.querySelector(".color");
 console.log(color);
 for (let i = 0; i < 10; i++) {
-  color.innerHTML += `<li style="background : ${colorArray[i]}  " class="${colorArray[i]} inColor">
+  color.innerHTML += `
+  <div class="align">
+  <li style="background : ${colorArray[i]}  " class="${colorArray[i]} inColor">
      <div class="align" >
         <div></div>
         <div>${colorArray[i]}</div>
-     </div> </li> `;
+     </div> </li>
+    </div> `;
 }
 let incolor = document.querySelectorAll(".inColor");
 
