@@ -1,0 +1,22 @@
+.heading {
+  background: black;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 23px;
+}
+.inColor {
+  width: 130px;
+  height: 50px;
+  border-radius: 100px;
+  margin-top: 17px;
+  list-style: none;
+  border: 0.1px solid white;
+  color: white;
+}
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+}
